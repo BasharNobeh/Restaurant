@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" type ="text/css" href="style.css">
+        
+       
+        
+</head>
+<body>
+  
+
+    
+    <header> 
+        <nav class="navbar">
+            
+            <div class="logo">BASHAR</div>
+           
+            <ul class="nav-links">
+             
+              
+              <div class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                
+                <li><a href="accounting.html">Accounting</a></li>
+                <li><a href="#">Contact</a></li>
+              </div>
+            </ul>
+          </nav>
+          
+          
+
+    </header>
+
+
+
+    <main class = "main2" id = "main2">
+        <form id="myForm" class="form_class">
+            <div class="form_div">
+                <label for ="name">Food Name:</label>
+                <input id = "name"class="field_class" name="login_txt" type="text" placeholder="Enter The Name " autofocus>
+                <select id ="type"name="FoodTypes" id="types" placeholder="Enter The Name " autofocus>
+                    <option value="Fruit and vegetables">Fruit and vegetables</option>
+                    <option value="Starchy food">Starchy food</option>
+                    <option value="Dairy">Dairy</option>
+                    <option value="Protein">Protein</option>
+                    <option value="Fat">Fat</option>
+                  </select>
+                  <br>
+                  <br>
+                <label for ="price">Price:</label>
+                <input id = "price" class="field_class" name="login_txt" type="text" placeholder="Enter The price " autofocus>
+                <br>
+               
+                <input class="submit_class" type="submit"  id="submit" onclick="AddRow()">
+            </div>
+        </form>
+        <table border ="2" id="show">
+			<thead>
+				<tr id = "row">
+                    <th> ID </th>
+					<th>Name</th>
+					<th>Type</th>
+					<th>Price</th>
+                    
+					
+				</tr>
+			</thead>
+		</table>
+       
+      
+   
+
+
+    </main>
+
+
+    <footer>
+      
+        <div class="footer-dark">
+            <footer>
+                <div class="container">
+                    <div class="row"><div class="col-md-3 item">
+        <h3>Services</h3>
+        <ul>
+            <li><a class ="a2"href="#">Web design</a></li>
+            <li><a class ="a2"href="#">Development</a></li>
+            <li><a class ="a2"href="#">Hosting</a></li>
+        </ul>
+    </div><div class="col-md-3 item">
+        <h3>Resources</h3>
+        <ul>
+            <li><a class ="a2"href="#">Web design</a></li>
+            <li><a class ="a2"href="#">Development</a></li>
+            <li><a class ="a2"href="#">Hosting</a></li>
+        </ul>
+    </div><div class="col-md-3 item">
+        <h3>About</h3>
+        <ul>
+            <li><a class ="a2" href="#">Company</a></li>
+            <li><a class ="a2"href="#">Team</a></li>
+            <li><a class ="a2"href="#">Careers</a></li>
+        </ul>
+    </div><div class="col-md-3 item text">
+        <h3>Who Are We</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum pariatur quae perspiciatis quia repellendus eos assumenda iusto soluta cumque maxime quidem ipsum nostrum, delectus, at aspernatur amet dolore illo corrupti.</p>
+    </div>
+                        <div class="col item social"><a class ="a2"href="https://www.facebook.com/bashar.mohammad.31924/"><i class="fa fa-facebook"></i></a><a class ="a2"href="https://instagram.com/imbasharr?igshid=YmMyMTA2M2Y"><i class="fa fa-instagram"></i></a></div>
+                    </div>
+                    <p class="copyright">BasharNobeh &copy; 2020</p>
+                </div>
+            </footer>
+        </div>
+
+
+    </footer>
+<script src="app.js"></script>
+</body>
+
+  
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+crossorigin="anonymous"></script>
+</html>
