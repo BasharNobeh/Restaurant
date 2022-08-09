@@ -23,16 +23,16 @@
     <header> 
         <nav class="navbar">
             
-            <div class="logo">BASHAR-Home</div>
+            <div class="logo">BASHAR-Statistics</div>
            
             <ul class="nav-links">
              
               
               <div class="menu">
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="#">About</a></li>
                 
-                <li><a href="statistics.html">Statistics</a></li>
+                <li><a href="accounting.html">Accounting</a></li>
                 <li><a href="#">Contact</a></li>
               </div>
             </ul>
@@ -45,26 +45,19 @@
 
 
     <main class = "main2" id = "main2">
-        <form id="myForm" class="form_class">
-            <div class="form_div">
-                <label for ="name">Food Name:</label>
-                <input id = "name"class="field_class" name="login_txt" type="text" placeholder="Enter The Name " autofocus>
-                <select id ="type"name="FoodTypes" id="types" placeholder="Enter The Name " autofocus>
-                    <option value="Fruit and vegetables">Fruit and vegetables</option>
-                    <option value="Starchy food">Starchy food</option>
-                    <option value="Dairy">Dairy</option>
-                    <option value="Protein">Protein</option>
-                    <option value="Fat">Fat</option>
-                  </select>
-                  <br>
-                  <br>
-                <label for ="price">Price:</label>
-                <input id = "price" class="field_class" name="login_txt" type="text" placeholder="Enter The price " autofocus>
-                <br>     
-                <input class="submit_class" type="submit"  id="submit" autofocus>
-            </div>
-        </form>
       
+        <table border ="2" id="show">
+			<thead>
+				<tr id = "row">
+                    <th> ID </th>
+					<th>Name</th>
+					<th>Type</th>
+					<th>Price</th>
+                    
+					
+				</tr>
+			</thead>
+		</table>
        
       
    
@@ -112,7 +105,8 @@
 
 
     </footer>
-<script src="app.js"></script>
+
+<script src ="statistics.js"></script>
 </body>
 
   
